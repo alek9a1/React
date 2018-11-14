@@ -7,12 +7,26 @@ class App extends Component {
 
 	state = UsersData;
 
-	changeMe= () => {
+	ChangeMe = () => {
 		
 	}
 
-	NameChanger = (event) => {
-		console.log('as');
+	NameChanger = (event, id) => {
+
+		const friendsIndex = this.state.friends.findIndex(p => {
+			return p.id === id
+		});
+
+		const friend = {
+			...this.state.friends[friendsIndex]
+		};
+
+		friend.name = event.target.value;
+
+		const friends = [...this.state.friends];
+		friends[friendsIndex] = friend;
+
+		this.setState({friends: friends});
 	}
 
 
@@ -22,10 +36,10 @@ class App extends Component {
 
 	persons = (
 		<div>
-		{this.state.friends.map(person => {
+		{this.state.friends.map((person, index) => {
 			return <Users 
-			click = {this.changeMe}
-			change = {this.NameChanger}
+			click = {this.ChangeMe}
+			change = {(event) =>this.NameChanger(event, person.id)}
 			name={person.name}
 			plec={person.plec}
 			key={person.id} />;

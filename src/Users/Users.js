@@ -4,7 +4,9 @@ import './Users.css';
 
 const Users = (props) => {
 	return (
-		<div onChange={props.change} className="single_user">{props.name} {props.nazwisko}</div>
+		<div className="single_user">{props.name} {props.nazwisko} 
+		<div className="inpucik"><input type="text" value={props.name} onChange={props.change}/></div>
+		</div>
 		)
 }
 
