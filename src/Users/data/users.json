@@ -1,0 +1,124 @@
+{
+  "friends": [
+    {
+      "id": 0,
+      "name": "Maricela Miller",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 1,
+      "name": "Lisa Mckay",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 2,
+      "name": "Peck Heath",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 3,
+      "name": "Loraine Aguilar",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 4,
+      "name": "Delores Decker",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 5,
+      "name": "Kirk Nielsen",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 6,
+      "name": "Benjamin Short",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 7,
+      "name": "Cochran Wells",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 8,
+      "name": "Doris Norton",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 9,
+      "name": "Fran Sargent",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 10,
+      "name": "Frost Boone",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 11,
+      "name": "Briggs Dickerson",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 12,
+      "name": "Harper Camacho",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 13,
+      "name": "Alford Kent",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 14,
+      "name": "Cohen Bright",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 15,
+      "name": "Bartlett Kidd",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 16,
+      "name": "Jackie Morrow",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 17,
+      "name": "Nita Ellison",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 18,
+      "name": "Jenifer Pitts",
+      "plec": "female",
+      "phone": "<ReferenceError: format is not defined>"
+    },
+    {
+      "id": 19,
+      "name": "Kemp Garrison",
+      "plec": "male",
+      "phone": "<ReferenceError: format is not defined>"
+    }
+  ]
+}
